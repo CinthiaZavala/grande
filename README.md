@@ -1,12 +1,1 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+En esta actividad aprendi a usar el useNavigate, BrowserRouter y para la navegacion entre paginas con botones y menu navbar, tambien aprendi a usar la libreria react-bootstrap para darle una mejor forma a la barra del menu. Encontre algunas dificultados con respesto a formas de hacer una misma cosa como el navbar o el redireccionamiento pero que no eran soportados por la verion de react que yo tenia o tambien encontre lineas de codigo que estgaba usando por intrucciones de paginas que encontre en google que ya no eran usables o no eran compatibles con otras lineas que yo tenia. El caso del enrutamiento no me parecio dificil ya que para el boton de regresar use el useNavigate con el parametro de -1 para regresar a la pagina anterior y para el enrutamiento del menu tampoco tuve problema porque use el que use para enlazar la pagina que se hiba a ver en la ruta que se mecionaba.
